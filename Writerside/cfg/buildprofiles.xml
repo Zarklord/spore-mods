@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables>
+        <algolia-id>5PWXFRPMT2</algolia-id>
+        <algolia-index>SporeMods</algolia-index>
+        <algolia-api-key>27d4a07e94debd4132df703014b6e331</algolia-api-key>
+        <web-root>https://some.domain</web-root>
+        <primary-color>strawberry</primary-color>
+    </variables>
+
+    <build-profile instance="sporemods">
+        <variables>
+            <noindex-content>false</noindex-content>
+        </variables>
+    </build-profile>
+
+    <footer>
+        <copyright>Zarklord 2018-2024</copyright>
+    </footer>
+
+</buildprofiles>
