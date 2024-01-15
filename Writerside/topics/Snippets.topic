@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Snippets" id="Snippets" is-library="true">
+
+    <snippet id="requires-mod-api">
+        <note>
+            <p>This requires the <a href="http://davoonline.com/sporemodder/rob55rod/ModAPI/Public/index.html">Spore ModAPI</a></p>
+        </note>
+    </snippet>
+
+    <snippet id="requires-upe">
+        <note>
+            <p>This requires <a href="Universal-Property-Enhancer.md"/></p>
+        </note>
+    </snippet>
+
+    <snippet id="save-data-dependency">
+        <warning>
+            <p>This mod introduces a save data dependency, and will require you to reset your galaxy if you need to
+                uninstall it.</p>
+        </warning>
+    </snippet>
+
+    <snippet id="api-only-mod">
+        <tip>
+            <p>This is an API Mod, which means it does nothing on its own.</p>
+        </tip>
+    </snippet>
+
+    <snippet id="mod-download-impl">
+        <chapter title="Download">
+            <tip><p>Got an issue? Have a feature request? Please post on the <a href="%issue%">Issue Tracker</a>.</p></tip>
+            <if filter="save-dependency">
+                <include from="Snippets.topic" element-id="save-data-dependency"/>
+            </if>
+            <p>Download: <a href="%download%">Latest Release</a></p>
+        </chapter>
+    </snippet>
+
+    <snippet id="mod-download">
+        <include from="Snippets.topic" element-id="mod-download-impl" use-filter="empty"/>
+    </snippet>
+
+    <snippet id="mod-download-save-dependency">
+        <include from="Snippets.topic" element-id="mod-download-impl" use-filter=""/>
+    </snippet>
+
+
+</topic>

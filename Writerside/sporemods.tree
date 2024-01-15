@@ -6,10 +6,10 @@
                  name="Spore Mods"
                  start-page="Spore-Mods.md">
 
+    <toc-element topic="Snippets.topic" hidden="true"/>
     <toc-element topic="Spore-Mods.md"/>
     <toc-element topic="Universal-Property-Enhancer.md"/>
-    <toc-element topic="Cell-Stage-Plus.md">
-    </toc-element>
+    <toc-element topic="Cell-Stage-Plus.md"/>
     <toc-element topic="Space-Stage-Timeline-Fix.md"/>
-    <toc-element topic="UPE-Infinite-Scaling.md"/>
+    <toc-element topic="Infinite-Part-Scaling.md" id="infinite-scaling"/>
 </instance-profile>
