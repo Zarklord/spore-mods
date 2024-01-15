@@ -89,7 +89,7 @@ Enables all 40 cell parts to be usable during cell stage.
 <var name="download" value="https://github.com/Zarklord/CellStagePartsAPI/releases/download/1.0.0/CellStagePlus.sporemod"/>
 <var name="issue" value="https://github.com/Zarklord/CellStagePartsAPI/issues"/>
 
-## Version
+## Version History
 <deflist collapsible="true" default-state="collapsed">
     <def title="v1.0.0" default-state="expanded">
         <list>

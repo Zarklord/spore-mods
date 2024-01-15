@@ -19,7 +19,7 @@ This allows you to do things like [Infinite Part Scaling](Infinite-Part-Scaling.
 <var name="download" value="https://github.com/Zarklord/UniversalPropertyEnhancer/releases/download/v1.2.0/UPEv1.2.0.sporemod"/>
 <var name="issue" value="https://github.com/Zarklord/UniversalPropertyEnhancer/issues"/>
 
-## Version
+## Version History
 <deflist collapsible="true" default-state="collapsed">
     <def title="v1.2.0" default-state="expanded">
     <list>
