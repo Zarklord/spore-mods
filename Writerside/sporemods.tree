@@ -4,9 +4,9 @@
 
 <instance-profile id="sporemods"
                  name="Spore Mods"
-                 start-page="Spore-Mods.md">
+                 start-page="Zarklords-Spore-Mods.md">
 
-    <toc-element topic="Spore-Mods.md" hidden="true"/>
+    <toc-element topic="Zarklords-Spore-Mods.md" hidden="true"/>
     <toc-element topic="Universal-Property-Enhancer.md"/>
     <toc-element topic="Cell-Stage-Plus.md"/>
     <toc-element topic="Space-Stage-Timeline-Fix.md"/>
