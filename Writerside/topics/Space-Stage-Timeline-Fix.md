@@ -48,6 +48,6 @@ All timelines created after this mod being installed will look correct regardles
 
 <seealso style="cards">
     <category ref="external">
-        <a href="https://github.com/Zarklord/SpaceStageTimelineFix" summary="Source Code & Package Sources">Github</a>
+        <a href="https://github.com/Zarklord/SpaceStageTimelineFix" summary="Source Code and Package Sources">Github</a>
     </category>
 </seealso>

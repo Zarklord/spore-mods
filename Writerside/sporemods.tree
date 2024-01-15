@@ -5,8 +5,7 @@
 <instance-profile id="sporemods"
                  name="Spore Mods"
                  start-page="Spore-Mods.md">
-
-    <toc-element topic="Snippets.topic" hidden="true"/>
+    
     <toc-element topic="Spore-Mods.md"/>
     <toc-element topic="Universal-Property-Enhancer.md"/>
     <toc-element topic="Cell-Stage-Plus.md"/>
