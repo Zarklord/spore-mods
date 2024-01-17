@@ -9,7 +9,7 @@
             <algolia-id>5PWXFRPMT2</algolia-id>
             <algolia-index>SporeMods</algolia-index>
             <noindex-content>false</noindex-content>
-            <web-root>https://zarklord.github.io/</web-root>
+            <web-root>https://zarklord.github.io</web-root>
             <primary-color>strawberry</primary-color>
         </variables>
         <footer>

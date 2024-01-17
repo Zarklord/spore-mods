@@ -90,4 +90,7 @@ This allows you to do things like [Infinite Part Scaling](Infinite-Part-Scaling.
     <category ref="external">
         <a href="https://github.com/Zarklord/UniversalPropertyEnhancer/" summary="Source Code">Github</a>
     </category>
+    <category ref="docs">
+        <a href="https://zarklord.github.io/UniversalPropertyEnhancer/documentation.html" summary="Universal Property Enhancer Docs">Modding Documentation</a>
+    </category>
 </seealso>
