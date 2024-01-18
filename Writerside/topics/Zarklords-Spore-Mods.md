@@ -8,5 +8,6 @@ You can find documentation and downloads for all my mods here.
         <a href="Cell-Stage-Plus.md"/>
         <a href="Infinite-Part-Scaling.md"/>
         <a href="Space-Stage-Timeline-Fix.md"/>
+        <a href="Grox-Parts.md"/>
     </category>
 </seealso>
