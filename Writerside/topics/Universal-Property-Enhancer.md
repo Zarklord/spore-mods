@@ -15,9 +15,10 @@ Additionally, you can add custom palette icons to categories with this mod.
 
 This allows you to do things like [Infinite Part Scaling](Infinite-Part-Scaling.md), without having to edit the prop file for every part.
 
-<include from="Snippets.topic" element-id="mod-download"/>
-<var name="download" value="https://github.com/Zarklord/UniversalPropertyEnhancer/releases/download/v1.2.0/UPEv1.2.0.sporemod"/>
-<var name="issue" value="https://github.com/Zarklord/UniversalPropertyEnhancer/issues"/>
+<include from="Snippets.topic" element-id="mod-download">
+    <var name="download" value="https://github.com/Zarklord/UniversalPropertyEnhancer/releases/download/v1.2.0/UPEv1.2.0.sporemod"/>
+    <var name="issue" value="https://github.com/Zarklord/UniversalPropertyEnhancer/issues"/>
+</include>
 
 ## Version History
 <deflist collapsible="true" default-state="collapsed">

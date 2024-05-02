@@ -28,9 +28,10 @@ All timelines created after this mod being installed will look correct regardles
     </step>
 </procedure>
 
-<include from="Snippets.topic" element-id="mod-download-save-dependency"/>
-<var name="download" value="https://github.com/Zarklord/SpaceStageTimelineFix/releases/download/v1.0.1/SpaceStageTimelineFixv1.0.1.sporemod"/>
-<var name="issue" value="https://github.com/Zarklord/SpaceStageTimelineFix/issues"/>
+<include from="Snippets.topic" element-id="mod-download-save-dependency">
+    <var name="download" value="https://github.com/Zarklord/SpaceStageTimelineFix/releases/download/v1.0.1/SpaceStageTimelineFixv1.0.1.sporemod"/>
+    <var name="issue" value="https://github.com/Zarklord/SpaceStageTimelineFix/issues"/>
+</include>
 
 ## Version History
 <deflist collapsible="true" default-state="collapsed">

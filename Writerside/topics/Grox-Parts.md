@@ -22,9 +22,10 @@ Adds the grox parts to the creature editor, with a bunch of fixes and improvemen
     </tab>
 </tabs>
 
-<include from="Snippets.topic" element-id="mod-download"></include>
-<var name="download" value="https://github.com/Zarklord/Grox-Parts/releases/download/v1.0.0/GroxParts.package"/>
-<var name="issue" value="https://github.com/Zarklord/Grox-Parts/issues"/>
+<include from="Snippets.topic" element-id="mod-download">
+    <var name="download" value="https://github.com/Zarklord/Grox-Parts/releases/download/v1.0.0/GroxParts.package"/>
+    <var name="issue" value="https://github.com/Zarklord/Grox-Parts/issues"/>
+</include>
 
 ## Version History
 <deflist collapsible="true" default-state="collapsed">
