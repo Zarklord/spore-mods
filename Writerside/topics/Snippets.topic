@@ -31,7 +31,7 @@
     </snippet>
 
     <snippet id="mod-download-impl">
-        <chapter title="Download">
+        <chapter title="Download" id="download">
             <tip><p>Got an issue? Have a feature request? Please post on the <a href="%issue%">Issue Tracker</a>.</p></tip>
             <if filter="save-dependency">
                 <include from="Snippets.topic" element-id="save-data-dependency"/>
