@@ -17,10 +17,28 @@
         </note>
     </snippet>
 
+    <snippet id="requires-luaapi">
+        <note>
+            <p>This requires <a href="Spore-LuaAPI.md"/></p>
+        </note>
+    </snippet>
+
     <snippet id="save-data-dependency">
         <warning>
             <p>This mod introduces a save data dependency, and will require you to reset your galaxy if you need to
                 uninstall it.</p>
+        </warning>
+    </snippet>
+
+    <snippet id="beta-mod">
+        <warning>
+            <p>This mod is in beta and is experimental, problems could arise from using it.</p>
+        </warning>
+    </snippet>
+
+    <snippet id="beta-version">
+        <warning>
+            <p>This update is in beta and is experimental, problems could arise from using it.</p>
         </warning>
     </snippet>
 
@@ -31,21 +49,45 @@
     </snippet>
 
     <snippet id="mod-download-impl">
-        <chapter title="Download" id="download">
+        <chapter title="%download-title%" id="%download-id%">
             <tip><p>Got an issue? Have a feature request? Please post on the <a href="%issue%">Issue Tracker</a>.</p></tip>
             <if filter="save-dependency">
                 <include from="Snippets.topic" element-id="save-data-dependency"/>
             </if>
-            <p>Download: <a href="%download%">Latest Release</a></p>
+            <p>Download: <a href="%download%">%release-text%</a></p>
         </chapter>
     </snippet>
 
+    <snippet id="mod-download-impl-release">
+        <include from="Snippets.topic" element-id="mod-download-impl" use-filter="empty">
+            <var name="release-text" value="Latest Release"/>
+            <var name="download-title" value="Download"/>
+            <var name="download-id" value="download"/>
+        </include>
+    </snippet>
+
+    <snippet id="mod-download-impl-experimental">
+        <include from="Snippets.topic" element-id="mod-download-impl" use-filter="empty">
+            <var name="release-text" value="Latest Experimental Release"/>
+            <var name="download-title" value="Download (Experimental)"/>
+            <var name="download-id" value="download-experimental"/>
+        </include>
+    </snippet>
+
     <snippet id="mod-download">
-        <include from="Snippets.topic" element-id="mod-download-impl" use-filter="empty"/>
+        <include from="Snippets.topic" element-id="mod-download-impl-release" use-filter="empty"/>
     </snippet>
 
     <snippet id="mod-download-save-dependency">
-        <include from="Snippets.topic" element-id="mod-download-impl" use-filter=""/>
+        <include from="Snippets.topic" element-id="mod-download-impl-release" use-filter="empty"/>
+    </snippet>
+
+    <snippet id="mod-download-experimental">
+        <include from="Snippets.topic" element-id="mod-download-impl-experimental" use-filter="empty"/>
+    </snippet>
+
+    <snippet id="mod-download-save-dependency-experimental">
+        <include from="Snippets.topic" element-id="mod-download-impl-experimental" use-filter="empty"/>
     </snippet>
 
 

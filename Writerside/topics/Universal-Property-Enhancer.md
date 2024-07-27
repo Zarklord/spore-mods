@@ -20,22 +20,47 @@ This allows you to do things like [Infinite Part Scaling](Infinite-Part-Scaling.
     <var name="issue" value="https://github.com/Zarklord/UniversalPropertyEnhancer/issues"/>
 </include>
 
+<deflist collapsible="true" default-state="collapsed">
+    <def title="Experimental Version">
+        <include from="Snippets.topic" element-id="beta-version"/>
+        <include from="Snippets.topic" element-id="requires-luaapi"/>
+        <p>
+            Updated to use the Spore LuaAPI, this mod is now capable of much more than before:
+            <list>
+                <li>Conditional property modifications, make the property value be based on an existing value, or only add the value if another value exists.</li>
+                <li>Insert and remove from property arrays.</li>
+            </list>
+        </p>
+        <include from="Snippets.topic" element-id="mod-download-experimental">
+            <var name="download" value="https://github.com/Zarklord/UniversalPropertyEnhancer/releases/download/v2.0.0-beta-1/UPEv2.0.0-beta-1.sporemod"/>
+            <var name="issue" value="https://github.com/Zarklord/UniversalPropertyEnhancer/issues"/>
+        </include>
+    </def>
+</deflist>
+
 ## Version History
 <deflist collapsible="true" default-state="collapsed">
+    <def title="v2.0.0 beta 1" default-state="collapsed">
+        <list>
+            <li>This mod now requires <a href="Spore-LuaAPI.md"/></li>
+            <li>All 4 main features have been migrated to Lua.</li>
+            <li>Lua now exposes a more powerful API for modifying property files.</li>
+        </list>
+    </def>
     <def title="v1.2.0" default-state="expanded">
-    <list>
-        <li>Fixed the game crashing when closing</li>
-        <li>Fixed a memory leak</li>
-        <li>VerifyUPE no longer requires a package to be installed, instead the data is generated, tested and then removed dynamically</li>
-        <li>UPE Tests run automatically, and print to the log file when launching the game (VerifyUPE can still be run to view the results in the cheat console)</li>
-        <li>Added proper support for mods packed with older versions of SMFX
-            <list>
-                <li>Proper support for prop mods packed with pre Feb 2020 SMFX (strings didn't get the last character serialized into the prop file)</li>
-                <li>Proper support for prop mods packed with pre June 2023 SMFX (array strings had the wrong data size)</li>
-            </list>
-        </li>
-        <li>Added proper support for prop mods packed in the future with the increased knowledge of prop flags</li>
-    </list>
+        <list>
+            <li>Fixed the game crashing when closing</li>
+            <li>Fixed a memory leak</li>
+            <li>VerifyUPE no longer requires a package to be installed, instead the data is generated, tested and then removed dynamically</li>
+            <li>UPE Tests run automatically, and print to the log file when launching the game (VerifyUPE can still be run to view the results in the cheat console)</li>
+            <li>Added proper support for mods packed with older versions of SMFX
+                <list>
+                    <li>Proper support for prop mods packed with pre Feb 2020 SMFX (strings didn't get the last character serialized into the prop file)</li>
+                    <li>Proper support for prop mods packed with pre June 2023 SMFX (array strings had the wrong data size)</li>
+                </list>
+            </li>
+            <li>Added proper support for prop mods packed in the future with the increased knowledge of prop flags</li>
+        </list>
     </def>
     <def title="v1.1.3">
         <list>

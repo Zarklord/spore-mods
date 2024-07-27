@@ -12,7 +12,7 @@ permissions:
 env:
   INSTANCE: 'Writerside/sporemods'
   ARTIFACT: 'webHelpSPOREMODS2-all.zip'
-  DOCKER_VERSION: '241.15989'
+  DOCKER_VERSION: '241.18775'
   ALGOLIA_ARTIFACT: 'algolia-indexes-SPOREMODS.zip'
   ALGOLIA_APP_NAME: '5PWXFRPMT2'
   ALGOLIA_INDEX_NAME: 'SporeMods'

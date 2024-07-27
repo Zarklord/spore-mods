@@ -2,11 +2,9 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="sporemods"
-                 name="Spore Mods"
-                 start-page="Zarklords-Spore-Mods.md">
-
+<instance-profile id="sporemods" name="Spore Mods" start-page="Zarklords-Spore-Mods.md">
     <toc-element topic="Zarklords-Spore-Mods.md" hidden="true"/>
+    <toc-element topic="Spore-LuaAPI.md"/>
     <toc-element topic="Universal-Property-Enhancer.md"/>
     <toc-element topic="Cell-Stage-Plus.md"/>
     <toc-element topic="Space-Stage-Timeline-Fix.md"/>
