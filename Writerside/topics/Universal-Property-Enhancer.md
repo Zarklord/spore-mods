@@ -24,13 +24,11 @@ This allows you to do things like [Infinite Part Scaling](Infinite-Part-Scaling.
     <def title="Experimental Version">
         <include from="Snippets.topic" element-id="beta-version"/>
         <include from="Snippets.topic" element-id="requires-luaapi"/>
-        <p>
-            Updated to use the Spore LuaAPI, this mod is now capable of much more than before:
-            <list>
-                <li>Conditional property modifications, make the property value be based on an existing value, or only add the value if another value exists.</li>
-                <li>Insert and remove from property arrays.</li>
-            </list>
-        </p>
+        <p>Updated to use the Spore LuaAPI, this mod is now capable of much more than before:</p>
+        <list>
+            <li>Conditional property modifications, make the property value be based on an existing value, or only add the value if another value exists.</li>
+            <li>Insert and remove from property arrays.</li>
+        </list>
         <include from="Snippets.topic" element-id="mod-download-experimental">
             <var name="download" value="https://github.com/Zarklord/UniversalPropertyEnhancer/releases/download/v2.0.0-beta-1/UPEv2.0.0-beta-1.sporemod"/>
             <var name="issue" value="https://github.com/Zarklord/UniversalPropertyEnhancer/issues"/>
