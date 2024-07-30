@@ -30,7 +30,7 @@ This allows you to do things like [Infinite Part Scaling](Infinite-Part-Scaling.
             <li>Insert and remove from property arrays.</li>
         </list>
         <include from="Snippets.topic" element-id="mod-download-experimental">
-            <var name="download" value="https://github.com/Zarklord/UniversalPropertyEnhancer/releases/download/v2.0.0-beta-2/UPEv2.0.0-beta-2.sporemod"/>
+            <var name="download" value="https://github.com/Zarklord/UniversalPropertyEnhancer/releases/download/v2.0.0-prerelease-1/UPEv2.0.0-prerelease-1.sporemod"/>
             <var name="issue" value="https://github.com/Zarklord/UniversalPropertyEnhancer/issues"/>
         </include>
     </def>
@@ -38,6 +38,12 @@ This allows you to do things like [Infinite Part Scaling](Infinite-Part-Scaling.
 
 ## Version History
 <deflist collapsible="true" default-state="collapsed">
+    <def title="v2.0.0 prerelease 1">
+        <list>
+            <li>Updated to use the newest lua api features.</li>
+            <li>Fixed some crashes when shutting down the game.</li>
+        </list>
+    </def>
     <def title="v2.0.0 beta 2">
         <list>
             <li>Fixed the UPE Version to be accurate.</li>

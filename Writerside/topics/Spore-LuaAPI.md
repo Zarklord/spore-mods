@@ -10,13 +10,22 @@
 This Mod Uses the Mod API to allow you to write mods for spore in Lua.
 
 <include from="Snippets.topic" element-id="mod-download-experimental">
-    <var name="download" value="https://github.com/Zarklord/Spore-LuaAPI/releases/download/v1.0.0-beta-2/Spore-LuaAPIv1.0.0-beta-2.sporemod"/>
+    <var name="download" value="https://github.com/Zarklord/Spore-LuaAPI/releases/download/v1.0.0-prerelease-1/Spore-LuaAPIv1.0.0-prerelease-1.sporemod"/>
     <var name="issue" value="https://github.com/Zarklord/Spore-LuaAPI/issues"/>
 </include>
 
 ## Version History
 <deflist collapsible="true" default-state="collapsed">
-    <def title="v1.0.0 beta 2" default-state="expanded">
+    <def title="v1.0.0 prerelease 1" default-state="expanded">
+        <list>
+            <li>Mods now use modimport/ModImportOnAllThreads instead of require/RequireOnAllThreads.</li>
+            <li>Fixed a crash from LuaMultiReference returning temporaries.</li>
+            <li>All bindings now have proper tostring and == metamethods set.</li>
+            <li>InitializePropManager and LuaConsole won't crash the game when the game is shutting down.</li>
+            <li>ExecuteOnAllThreads now properly copies upvalues, and has the default error handler.</li>
+        </list>
+    </def>
+    <def title="v1.0.0 beta 2">
         <list>
             <li>Added a proper callstack logging when a lua crash occurs.</li>
             <li>Added tostring metamethods to most basic property types.</li>
