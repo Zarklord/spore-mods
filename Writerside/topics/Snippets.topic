@@ -59,7 +59,7 @@
     </snippet>
 
     <snippet id="mod-download-impl-release">
-        <include from="Snippets.topic" element-id="mod-download-impl" use-filter="empty">
+        <include from="Snippets.topic" element-id="mod-download-impl">
             <var name="release-text" value="Latest Release"/>
             <var name="download-title" value="Download"/>
             <var name="download-id" value="download"/>
@@ -67,7 +67,7 @@
     </snippet>
 
     <snippet id="mod-download-impl-experimental">
-        <include from="Snippets.topic" element-id="mod-download-impl" use-filter="empty">
+        <include from="Snippets.topic" element-id="mod-download-impl">
             <var name="release-text" value="Latest Experimental Release"/>
             <var name="download-title" value="Download (Experimental)"/>
             <var name="download-id" value="download-experimental"/>
@@ -79,7 +79,7 @@
     </snippet>
 
     <snippet id="mod-download-save-dependency">
-        <include from="Snippets.topic" element-id="mod-download-impl-release" use-filter="empty"/>
+        <include from="Snippets.topic" element-id="mod-download-impl-release" use-filter=""/>
     </snippet>
 
     <snippet id="mod-download-experimental">
@@ -87,7 +87,7 @@
     </snippet>
 
     <snippet id="mod-download-save-dependency-experimental">
-        <include from="Snippets.topic" element-id="mod-download-impl-experimental" use-filter="empty"/>
+        <include from="Snippets.topic" element-id="mod-download-impl-experimental" use-filter=""/>
     </snippet>
 
 
